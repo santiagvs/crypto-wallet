@@ -1,24 +1,5 @@
-# README
+Projeto feito junto ao curso Rails 5.x
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Repositório em atualização até o final do curso. 
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Versão do Rails: 6.1.1
