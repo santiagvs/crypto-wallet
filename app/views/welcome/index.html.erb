@@ -1,0 +1,23 @@
+<p>
+  <%= link_to 'Português', root_path(locale: 'pt-BR') %>
+</p>
+<p>
+  <%= link_to 'English', root_path(locale: 'en') %>
+</p>
+
+<h1>Seja bem-vindo!</h1>
+<p>O idioma usado nesta aplicação é: <b><%= t('actual-locale') %></b></p>
+<p><strong>Data:</strong> <%= l(Date.today) %><p>
+<p><%= t('hello') %></p>
+
+<%= render "menu" %>
+
+<p>
+    Você está em ambiente de <strong><%=ambiente_rails%></strong>
+</p>
+<p>
+    Eu sou uma variável de instância/sessão <b><%= @meu_nome %></b>
+</p>
+<p>
+    Meu curso é o curso de <b><%= @curso %></b>
+</p>
